@@ -1,0 +1,107 @@
+img{
+    width: 255px;
+}
+.home{
+    margin-top: 200px;
+    text-align: center;
+}
+.btn{
+    margin: 50px;
+}
+*{
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.navbar{
+    background: crimson;
+    font-family:caliri;
+    margin: 0px;
+}
+ul{
+    float:right;
+    width:fit-content;
+}
+.head{
+    color:aliceblue;
+    display:inline-block;
+    padding:0px 0px 0px 15px;
+}
+li{
+    display:inline-block;
+    width:100px;
+    height:50px;
+    line-height:5.5;
+}
+li a{
+    color:white;
+}
+li a:hover{
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    text-decoration: none;
+    color:crimson;
+}
+.fulldiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "n1 m n2";
+}
+.nav1{
+    grid-area: n1;
+    border-right: 1px solid;
+}
+.nav2{
+    grid-area: n2;
+    border-left: 1px solid;
+}
+.maindiv{
+    grid-area: m;
+    padding:50px;
+}
+p{
+    line-height: 30px;
+    padding: 6px;
+}
+nav img{
+    width: 100%;
+    height: 300px;
+}
+.aboutimg{
+    text-align: center;
+}
+.careersdiv{
+    width: 60%;
+    border: 1px solid;
+     margin: 50px auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+.signdiv{
+    margin:5% auto;
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+}
+.labeldiv{
+    display: grid;
+}
+.signbtn{
+    margin-left: 140px;
+}
+.hightlight{
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+.underline{
+    text-decoration: underline;
+}
+.careerhightlight{
+    background-color: azure;
+}
+#click:hover{
+    border: 1px solid;
+    border-radius: 5px ;
+}
